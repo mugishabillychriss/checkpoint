@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Tech Solutions</title>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      color: #00d8ff;
+      padding: 30px 0;
+      text-align: center;
+      font-size: 2.2em;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin: 15px 0;
+      font-size: 1.1em;
+    }
+
+    nav a {
+      color: #00d8ff;
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .section {
+      background: rgba(255, 255, 255, 0.05);
+      margin-bottom: 30px;
+      padding: 30px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .section:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+    }
+
+    .section h2 {
+      color: #00d8ff;
+      margin-bottom: 15px;
+      font-size: 1.6em;
+    }
+
+    .section p, .section ul {
+      line-height: 1.7;
+      font-size: 1.05em;
+    }
+
+    .section ul {
+      margin-left: 20px;
+    }
+
+    /* Open AI Project Button */
+    .open-project-btn {
+      display: block;
+      width: 280px;
+      margin: 30px auto;
+      padding: 18px 0;
+      background: #00d8ff;
+      color: #111;
+      text-align: center;
+      font-size: 1.15em;
+      font-weight: 600;
+      border-radius: 10px;
+      transition: background 0.3s, transform 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    }
+
+    .open-project-btn:hover {
+      background: #00a3c4;
+      transform: translateY(-3px);
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9em;
+      color: #aaa;
+      border-top: 1px solid rgba(255,255,255,0.2);
+    }
+
+    @media (max-width: 768px) {
+      header { font-size: 1.8em; }
+      nav { flex-direction: column; gap: 10px; }
+      .section h2 { font-size: 1.4em; }
+      .open-project-btn { width: 90%; }
+    }
+  </style>
+</head>
+<body>
+
+  <header>Cyber Tech Solutions</header>
+
+  <nav>
+    <a href="#services">Services</a>
+    <a href="#about">About Us</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="section" id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Custom Software Development</li>
+        <li>Cybersecurity Solutions</li>
+        <li>Cloud & AI Integration</li>
+        <li>IT Consulting & Support</li>
+      </ul>
+    </div>
+
+    <div class="section" id="about">
+      <h2>About Cyber Tech</h2>
+      <p>We are a forward-thinking tech company focused on delivering innovative solutions to businesses and educational institutions. Our mission is to enhance productivity, security, and digital transformation using cutting-edge technology.</p>
+    </div>
+
+    <div class="section" id="contact">
+      <h2>Contact & Demo</h2>
+      <p>Explore our AI and software projects through our interactive tools. Click the button below to open our AI Studio demo safely in a new tab:</p>
+      <a href="https://aistudio.google.com/apps/9481dc6c-ae54-4329-9f43-ea1785e20e67?showPreview=true&showAssistant=true" target="_blank" class="open-project-btn">
+        Open AI Studio Project
+      </a>
+    </div>
+
+  </div>
+
+  <footer>
+    &copy; 2026 Cyber Tech Solutions. All rights reserved.
+  </footer>
+
+</body>
+</html>
